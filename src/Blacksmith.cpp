@@ -41,7 +41,9 @@ int check_cpu() {
       "i7-8086",
       "i7-8700",
       "i7-9700",
-      "i7-9900"
+      "i7-9900",
+      // @iamywang, Jul 16, 2024: add Comet Lake
+      "i7-10700"
   };
 
   bool cpu_supported = false;
